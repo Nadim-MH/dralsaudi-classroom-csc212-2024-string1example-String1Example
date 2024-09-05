@@ -45,8 +45,20 @@ public class String1 {
 	     } 
 	    return flag;
         }
-    }
+    
     public void reverse() {
-        throw new UnsupportedOperationException("reverse() function is not supported yet.");
+         int left = 0;
+	int right = length() - 1;
+	    
+	while(left < right){
+		
+		char tmp = str[left];
+		str[left] = str[right];
+		str[right] = tmp;
+
+		left--;
+		right++;
+		
+    }
     }
 }
