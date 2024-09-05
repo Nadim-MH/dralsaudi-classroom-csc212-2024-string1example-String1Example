@@ -59,7 +59,7 @@ public class String1 {
 		str[right] = tmp;
 
 		left--;
-		right++;
+		right++:
 		
     }
 }
